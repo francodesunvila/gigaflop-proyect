@@ -1,0 +1,1045 @@
+
+body {
+    background-color: #4285f4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    padding: 90px;
+    height: 590px;
+   
+    
+  }
+
+  .background-container {
+    background-color: #4285f4;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .loginbox {
+    background-color: white;
+    width: 350px;
+    margin: 25px;
+    border-radius: 30px;
+    height: 550px;
+    box-shadow: 3px 3px #d9d9d9;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: space-around;
+    margin-top: 70px;
+  }
+  
+  .title-container {
+    display: flex;
+    justify-content: center;
+    width: 300px;
+   
+  }
+  
+  .title {
+    color: #4285f4;
+    font-size: 60px;
+    text-shadow: 3px 5px #d9d9d9;
+    font-weight: bold;
+    width: 300px;
+    text-align: center;
+ 
+  }
+  
+  .input-container {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: 20px;
+    align-items: center;
+    height: 300px;
+    padding: 20px;
+  }
+  
+  .input {
+    width: 300px;
+    height: 45px;
+    margin: 15px;
+    border-radius: 5px;
+    background-color: #d9d9d9;
+    border: 1px solid #d9d9d9;
+    padding: 10px;
+  }
+
+  input:hover {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  }
+
+  .login-button {
+    height: 45px;
+    margin: 10px;
+    border-radius: 5px;
+    background-color: #239f65;
+    border: 1px solid #d9d9d9;
+    padding: 10px;
+    color: white;
+    width: 200px;
+    padding: 5px;
+   
+    box-shadow: 3px 3px #d9d9d9;
+    cursor: pointer; /* Añade cursor pointer para indicar que es un botón */
+    font-weight: bold
+  }
+  
+  .login-button:hover {
+    background-color: #1e8449; /* Cambia el color al hacer hover */
+    box-shadow: 4px 4px #c0c0c0; /* Cambia el box shadow al hacer hover */
+    transform: translateY(-2px); /* Opcional: Levanta el botón ligeramente */
+    transition: all 0.3s ease; /* Opcional: Transición suave para el efecto */
+  }
+
+  .menu-container{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: 10px;
+    align-items: center;
+    height: 300px;
+    padding: 20px;
+    
+    
+    margin-top: 150px;
+    
+  }
+  .menu-button{
+    height: 60px;
+    margin: 10px;
+    border-radius: 5px;
+    background-color: #4285f4;
+    border: 3px solid #4285f4;
+    padding: 10px;
+    color: white;
+    width: 300px;
+    padding: 5px;
+    margin-bottom: 10px;
+    box-shadow: 3px 3px #d9d9d9;
+    cursor: pointer; /* Añade cursor pointer para indicar que es un botón */
+    font-weight: bold
+    
+  }
+
+  .menu-button:hover {
+    background-color: #3e45a5; /* Cambia el color al hacer hover */
+    box-shadow: 4px 4px #c0c0c0; /* Cambia el box shadow al hacer hover */
+    transform: translateY(-2px); /* Opcional: Levanta el botón ligeramente */
+    transition: all 0.3s ease; /* Opcional: Transición suave para el efecto */
+  }
+
+  .title-menu {
+    color: white;
+    font-size: 60px;
+    text-shadow: 3px 5px #645e5e9c;
+    font-weight: bold;
+   
+  }
+
+ 
+
+  .background-container-menu {
+    background-color: #4285f4;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+   
+    
+  }
+
+  .menubox{
+    background-color: white;
+    width: 350px;
+    margin: 25px;
+    border-radius: 30px;
+    height: 550px;
+    box-shadow: 3px 3px #d9d9d9;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+
+    
+  }
+  .logout-container{
+    
+    height: 50px;
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+  }
+  .logout-button{
+    height: 45px;
+    margin: 10px;
+    border-radius: 5px;
+    background-color: rgb(187, 7, 7);
+    border: 1px solid #d9d9d9;
+    padding: 10px;
+    color: white;
+    width: 120px;
+    padding: 5px;
+    margin-bottom: 20px;
+    
+    
+    box-shadow: 3px 3px #d9d9d9;
+    cursor: pointer; /* Añade cursor pointer para indicar que es un botón */
+    font-weight: bold;
+    
+
+  }
+  
+  .logout-button:hover {
+    background-color: #700404; /* Cambia el color al hacer hover */
+    box-shadow: 4px 4px #c0c0c0; /* Cambia el box shadow al hacer hover */
+    transform: translateY(-2px); /* Opcional: Levanta el botón ligeramente */
+    transition: all 0.3s ease; /* Opcional: Transición suave para el efecto */
+  
+  }
+
+  .cotizabox{
+    background-color: white;
+    width: 1050px;
+    margin: 25px;
+    border-radius: 30px;
+    height: 450px;
+    box-shadow: 3px 3px #d9d9d9;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+    
+  }
+
+  .title-coti{
+    color: white;
+    font-size: 85px;
+    text-shadow: 3px 5px #645e5e9c;
+    font-weight: bold; 
+    margin-right: 650px;
+    margin-top: -70px;
+  }
+
+  .cotizatitlebox{
+    
+    margin-bottom: 120px;
+    width: 1050px;  
+    display: flex;
+    justify-content: center;
+    border-bottom: 5px solid rgb(190, 186, 186);
+    
+    
+  }
+  .cotizatitle{
+    font-weight: bold; 
+    color: grey;
+    
+  }
+
+  
+
+  .box-volver-cotiza{
+    
+    display: flex;
+    justify-content: space-between;
+    align-content: center;   
+    margin-top: 60px;
+    width: 1000px;
+  }
+
+  .cotiza-container-button{
+    
+    margin-bottom: 60px;
+    
+  }
+  .cotiza-button{
+    height: 60px;
+    margin: 10px;
+    border-radius: 5px;
+    background-color: #4285f4;
+    border: 3px solid #4285f4;
+    padding: 10px;
+    color: white;
+    width: 400px;
+    padding: 5px;
+    margin-bottom: 10px;
+    box-shadow: 3px 3px #d9d9d9;
+    cursor: pointer; /* Añade cursor pointer para indicar que es un botón */
+    font-weight: bold
+    
+  }
+
+  .cotiza-button:hover {
+    background-color: #3e45a5; /* Cambia el color al hacer hover */
+    box-shadow: 4px 4px #c0c0c0; /* Cambia el box shadow al hacer hover */
+    transform: translateY(-2px); /* Opcional: Levanta el botón ligeramente */
+    transition: all 0.3s ease; /* Opcional: Transición suave para el efecto */
+   
+  }
+
+  .volver-cotiza{
+    color: #239f65;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-left: 10px;
+    text-decoration: none;
+
+  }
+
+  .volver-cotiza:hover{
+    
+    color: rgb(4, 88, 4);
+    transform: translateY(-2px); /* Opcional: Levanta el botón ligeramente */
+    transition: all 0.3s ease; 
+  }
+  .recuadroerror{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+    width: 300px;
+    height: 400px;
+    margin-bottom: 22px;
+    
+  }
+  .errorfoto{
+    width: 220px;
+    height: 200px;
+    
+  }
+  .recuadrofoto{
+    padding: 100px;
+    height: 500px;
+    margin-top: -95px;
+    width: 300px;
+    
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  .recuadrobutton{
+ 
+    width: 500px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+  }
+  .recuadrotexto{
+    margin-top: 50px;
+    width: 230px;
+  }
+  .textoerror{
+    color: white;
+    font-size: 14px;
+    text-align: center;
+    margin-right: 10px;
+  }
+ 
+  .volvererror{
+    height: 30px;
+    border-radius: 5px;
+    background-color: rgb(75, 71, 71);
+    
+    color: rgb(199, 198, 198);
+    width: 100px;
+    cursor: pointer; /* Añade cursor pointer para indicar que es un botón */
+    font-weight: bold;
+  }
+
+  .volvererror:hover{
+    
+    background-color: rgb(5, 5, 5);
+    transform: translateY(-2px); /* Opcional: Levanta el botón ligeramente */
+    transition: all 0.3s ease; 
+  }
+
+
+
+
+@media (min-width: 1024px){
+body {
+    background-color: #4285f4;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+    padding: 90px;
+    height: 720px;
+  }
+
+  .background-container {
+    background-color: #4285f4;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .loginbox {
+    background-color: white;
+    width: 750px;
+    margin: 25px;
+    border-radius: 30px;
+    height: 450px;
+    box-shadow: 3px 3px #d9d9d9;
+    flex-direction: column;
+  }
+  
+  .title-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 500px;
+    margin: 10px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    
+  }
+  
+  .title {
+    color: #4285f4;
+    font-size: 85px;
+    text-shadow: 3px 5px #d9d9d9;
+    font-weight: bold;
+  
+    width: 500px;
+  }
+  
+  .input-container {
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+    margin: 10px;
+    align-items: center;
+    height: 300px;
+    padding: 20px;
+  }
+  
+  .input {
+    width: 400px;
+    height: 45px;
+    margin: 10px;
+    border-radius: 5px;
+    background-color: #d9d9d9;
+    border: 1px solid #d9d9d9;
+    padding: 10px;
+  }
+
+  input:hover {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  }
+
+  .login-button {
+    height: 45px;
+    margin: 10px;
+    border-radius: 5px;
+    background-color: #239f65;
+    border: 1px solid #d9d9d9;
+    padding: 10px;
+    color: white;
+    width: 200px;
+    padding: 5px;
+    margin-bottom: 10px;
+    box-shadow: 3px 3px #d9d9d9;
+    cursor: pointer; /* Añade cursor pointer para indicar que es un botón */
+    font-weight: bold
+  }
+  
+  .login-button:hover {
+    background-color: #1e8449; /* Cambia el color al hacer hover */
+    box-shadow: 4px 4px #c0c0c0; /* Cambia el box shadow al hacer hover */
+    transform: translateY(-2px); /* Opcional: Levanta el botón ligeramente */
+    transition: all 0.3s ease; /* Opcional: Transición suave para el efecto */
+  }
+  .loginregistro{
+    font-size: 12px;
+  }
+
+  .menu-container{
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+    margin: 10px;
+    align-items: center;
+    height: 300px;
+    padding: 20px;
+    
+    margin-top: 150px;
+    
+  }
+  .menu-button{
+    height: 60px;
+    margin: 10px;
+    border-radius: 5px;
+    background-color: #4285f4;
+    border: 3px solid #4285f4;
+    padding: 10px;
+    color: white;
+    width: 400px;
+    padding: 5px;
+    margin-bottom: 10px;
+    box-shadow: 3px 3px #d9d9d9;
+    cursor: pointer; /* Añade cursor pointer para indicar que es un botón */
+    font-weight: bold
+    
+  }
+
+  .menu-button:hover {
+    background-color: #3e45a5; /* Cambia el color al hacer hover */
+    box-shadow: 4px 4px #c0c0c0; /* Cambia el box shadow al hacer hover */
+    transform: translateY(-2px); /* Opcional: Levanta el botón ligeramente */
+    transition: all 0.3s ease; /* Opcional: Transición suave para el efecto */
+  }
+
+  .title-menu {
+    color: white;
+    font-size: 85px;
+    text-shadow: 3px 5px #645e5e9c;
+    font-weight: bold;
+    
+    margin-right: 850px;
+    
+  }
+
+ 
+
+  .background-container-menu {
+    background-color: #4285f4;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    margin-top: -70px;
+  }
+
+  .menubox{
+    background-color: white;
+    width: 850px;
+    margin: 25px;
+    border-radius: 30px;
+    height: 500px;
+    box-shadow: 3px 3px #d9d9d9;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    
+  }
+  .logout-container{
+    
+    height: 50px;
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 600px;
+  }
+  .logout-button{
+    height: 45px;
+    margin: 10px;
+    border-radius: 5px;
+    background-color: rgb(187, 7, 7);
+    border: 1px solid #d9d9d9;
+    padding: 10px;
+    color: white;
+    width: 120px;
+    padding: 5px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+    
+    box-shadow: 3px 3px #d9d9d9;
+    cursor: pointer; /* Añade cursor pointer para indicar que es un botón */
+    font-weight: bold;
+    
+
+  }
+  
+  .logout-button:hover {
+    background-color: #700404; /* Cambia el color al hacer hover */
+    box-shadow: 4px 4px #c0c0c0; /* Cambia el box shadow al hacer hover */
+    transform: translateY(-2px); /* Opcional: Levanta el botón ligeramente */
+    transition: all 0.3s ease; /* Opcional: Transición suave para el efecto */
+  
+  }
+
+  .cotizabox{
+    background-color: white;
+    width: 1050px;
+    margin: 25px;
+    border-radius: 30px;
+    height: 450px;
+    box-shadow: 3px 3px #d9d9d9;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+    
+  }
+
+  .title-coti{
+    color: white;
+    font-size: 85px;
+    text-shadow: 3px 5px #645e5e9c;
+    font-weight: bold; 
+    margin-right: 650px;
+    margin-top: -70px;
+  }
+
+  .cotizatitlebox{
+    
+    margin-bottom: 120px;
+    width: 1050px;  
+    display: flex;
+    justify-content: center;
+    border-bottom: 5px solid rgb(190, 186, 186);
+    
+    
+  }
+  .cotizatitle{
+    font-weight: bold; 
+    color: grey;
+    
+  }
+
+  
+
+  .box-volver-cotiza{
+    
+    display: flex;
+    justify-content: space-between;
+    align-content: center;   
+    margin-top: 60px;
+    width: 1000px;
+  }
+
+  .cotiza-container-button{
+    
+    margin-bottom: 60px;
+    
+  }
+  .cotiza-button{
+    height: 60px;
+    margin: 10px;
+    border-radius: 5px;
+    background-color: #4285f4;
+    border: 3px solid #4285f4;
+    padding: 10px;
+    color: white;
+    width: 400px;
+    padding: 5px;
+    margin-bottom: 10px;
+    box-shadow: 3px 3px #d9d9d9;
+    cursor: pointer; /* Añade cursor pointer para indicar que es un botón */
+    font-weight: bold
+    
+  }
+
+  .cotiza-button:hover {
+    background-color: #3e45a5; /* Cambia el color al hacer hover */
+    box-shadow: 4px 4px #c0c0c0; /* Cambia el box shadow al hacer hover */
+    transform: translateY(-2px); /* Opcional: Levanta el botón ligeramente */
+    transition: all 0.3s ease; /* Opcional: Transición suave para el efecto */
+   
+  }
+
+  .volver-cotiza{
+    color: #239f65;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-left: 10px;
+    text-decoration: none;
+
+  }
+
+  .volver-cotiza:hover{
+    
+    color: rgb(4, 88, 4);
+    transform: translateY(-2px); /* Opcional: Levanta el botón ligeramente */
+    transition: all 0.3s ease; 
+  }
+
+  .errorfoto{
+    width: 450px;
+    height: 450px;
+    position: relative;
+    margin-left: 200px;
+
+  }
+  .recuadrofoto{
+    padding: 100px;
+    height: 600px;
+    width: 1503px;
+  
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  .recuadrobutton{
+ 
+    width: 500px;
+    
+    display: flex;
+    justify-content: center;
+  }
+  .recuadrotexto{
+   
+    width: 500px;
+  }
+  .textoerror{
+    color: white;
+    font-size: 30px;
+  }
+  .recuadroerror{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    width: 1503px;
+    margin-bottom: 22px;
+    
+    
+    
+  }
+  .volvererror{
+    height: 45px;
+    border-radius: 5px;
+    background-color: rgb(75, 71, 71);
+    padding: 10px;
+    color: rgb(199, 198, 198);
+    width: 120px;
+    padding: 5px;
+    cursor: pointer; /* Añade cursor pointer para indicar que es un botón */
+    font-weight: bold;
+  }
+
+  .volvererror:hover{
+    
+    background-color: rgb(5, 5, 5);
+    transform: translateY(-2px); /* Opcional: Levanta el botón ligeramente */
+    transition: all 0.3s ease; 
+  }
+
+  .headerhome{
+   
+    width: 1300px;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+   
+   
+    border-radius: 15px;
+    position: relative;
+    
+
+    
+  }
+  .headercontainer{
+    display: flex;
+    justify-content: space-around;
+    align-content: space-around;
+    align-items: center;
+    background-color: black;
+    height: 70px;
+    width: 1300px;
+    position: absolute;
+    
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    
+  }
+  
+  .titlehome{
+    color: white;
+    text-shadow: 2px 2px grey;
+  }
+  .inputhome{
+    border-radius: 10px;
+    width: 400px;
+    height: 40px;
+  }
+  .inputhome:hover {
+    border-color: #4285f4;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  }
+  .proveedor{
+    color: white;
+  }
+  .proveedor:hover{
+    
+    color: #4285f4;
+    transform: translateY(-2px); /* Opcional: Levanta el botón ligeramente */
+    transition: all 0.3s ease;
+    cursor: pointer;
+  }
+
+  .carrito{
+    color: white;
+    
+  }
+  .carrito:hover{
+    
+    color: #4285f4;
+    transform: translateY(-2px); /* Opcional: Levanta el botón ligeramente */
+    transition: all 0.3s ease;
+    cursor: pointer;
+  }
+  .optioncontainer{
+    display: flex;
+    background: #d9d9d9;
+    height: 45px;
+    width: 1300px;
+    margin-top: 70px;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    border: 2px solid rgb(192, 185, 185);
+  
+  }
+
+  .optionhome{
+    
+    margin-top: 5px;
+    font-size: 13px;
+    font-weight: bold;
+    text-shadow: 1px 3px rgb(196, 188, 188);
+  }
+
+  .optionhome:hover{
+    text-shadow: 1px 1px grey;
+    cursor: pointer;
+    color: #4285f4;
+  }
+  .card{
+    border: 2px solid rgb(197, 187, 187);
+    width: 1300px;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    align-items: center;
+    height: 400px;
+    margin-top: 20px;
+    background: #d9d9d9;
+    
+  }
+  .cardtitlecont{
+    
+    width: 1300px;
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+  }
+  .cardcontainer{
+    border: 3px solid rgb(196, 196, 199);
+    height: 300px;
+    width: 235px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: space-between;
+    justify-content: space-around;
+    border-radius: 5px;
+    background: white;
+    padding: 10px;
+  }
+  
+  .cardcontainer:hover{
+    border: 2px solid #4285f4;
+} 
+  .cardimage{
+    
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 190px;
+    height: 150px;
+  }
+ 
+  .stock{
+    font-size: 10px;
+    margin-top: 10px;
+  }
+  
+  .cardstock{
+    color: grey;
+   
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    align-content: flex-end;
+    justify-content: flex-end;
+    height: 60px;
+  
+  }
+  .product{
+    font-size: 12px;
+    text-align: center;
+  
+
+  }
+
+  .buttoncard{
+    background: #4285f4;
+    color: white;
+    width: 100px;
+    border-radius: 3px;
+    border: #4285f4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    height: 30px;
+  }
+  .buttoncard:hover{
+    background: rgb(55, 55, 168);
+    cursor: pointer;
+    transform: translateY(1px); /* Opcional: Levanta el botón ligeramente */
+    transition: all 0.1s ease;
+    
+  }
+  .containerbuttoncard{
+    
+    height: 70px;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    
+    
+  }
+  .cardsforproduct{
+    display: flex;
+    border: 3px solid rgb(199, 196, 196);
+    width: 1200px;
+    justify-content: space-around;
+    height: 350px;
+    align-items: center;
+    border-radius: 10px;
+  }
+  .titlecard{
+    color: #4285f4;
+    font-size: 20px;
+    font-weight: bold;
+    
+  }
+
+  .hub{
+    width: 150px;
+  }
+  .discoe{
+    width: 200px;
+  }
+  .notebook{
+    width: 200px;
+   
+    height: 130px;
+  }
+  .impresora{
+    width: 150px;
+
+  }
+.carddescription{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 560px;
+}
+
+.footerhome{
+    
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.footercontainer{
+    
+    width: 1200px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+  
+}
+
+.footerback{
+    background-color: #4285f4;
+    color: white;
+    width: 120px;
+    font-size: 15px;
+    border-radius: 15px;
+    border: 2px solid #4285f4;
+    
+}
+.footerback:hover{
+    background: #3e45a5;
+    transform: translateY(1px); /* Opcional: Levanta el botón ligeramente */
+    transition: all 0.1s ease;
+}
+
+.footerfinalizar{
+    background-color: #239f65;
+    color: white;
+    width: 120px;
+    font-size: 15px;
+    border-radius: 15px;
+    border: 2px solid #239f65;
+    
+}
+.footerfinalizar:hover{
+    background: green;
+    transform: translateY(1px); /* Opcional: Levanta el botón ligeramente */
+    transition: all 0.1s ease;
+}
+
+.footerimagecontainer{
+    
+    width: 1000px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 15px;
+}
+.imagefooter{
+    width: 80px;
+    height: 70px;
+}
+.imagefooter:hover{
+    width: 82px;
+  
+    cursor: pointer;
+}
+}
