@@ -18,8 +18,6 @@ const Error404 = () => {
         <div className='recuadrotexto'>
             <h6 className='textoerror'>Lo siento, página en construcción</h6>
         </div>
-    
-        
         <div className='recuadrobutton'>
             <button className='volvererror' onClick={handleError}>VOLVER</button>
         </div>

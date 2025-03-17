@@ -19,10 +19,10 @@ const Cotizaciones = () => {
   }
   return (
     <>
-    <div className="background-container-menu">
+    <div className="background-container-cotiza">
         
     <div className="title-container">
-          <h2 className="title-coti">GIGAFLOP</h2>
+          <h2 className="title-menu">GIGAFLOP</h2>
         </div>
       <div className="cotizabox">
         <div className='cotizatitlebox'>

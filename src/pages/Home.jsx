@@ -9,6 +9,7 @@ import genius from '../img/genius.png'
 import hp from '../img/hp.jpg'
 import intel2 from '../img/intel2.jpg'
 import { useNavigate } from 'react-router-dom'
+import menu from '../img/menu.png'
 
 const Home = () => {
 
@@ -28,6 +29,9 @@ const errorHome=()=>{
                 <div className='gigacontainer'>
                     <h2 className='titlehome'>GIGAFLOP</h2>
                 </div>
+                <div className='containermenuimage'>
+                    <img className='menuimage'src={menu}/>
+                </div>
                 <div className='inputcontainer'>
                     <input className='inputhome' placeholder='¿Que producto estás buscando?'/>
                 </div>
@@ -45,8 +49,11 @@ const errorHome=()=>{
                 <h6 className='optionhome' onClick={errorHome}>HISTORIAL</h6>
                 <h6 className='optionhome' onClick={errorHome}>REPORTES</h6>
             </div>
+          
             <section className='card'>
-                
+                    <div className='inputcontainermobile'>
+                        <input className='inputhomemobile' placeholder='       Ingrese Producto'/>
+                    </div>
                     <div className='cardtitlecont'>
                         <h3 className='titlecard'>PRODUCTOS</h3>
                     </div>

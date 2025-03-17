@@ -21,7 +21,7 @@ const handleLogin =() =>{
    
     <div className="background-container">
       <div className="loginbox">
-        <div className="title-container">
+        <div className="title-container-login">
           <h2 className="title">GIGAFLOP</h2>
         </div>
         <div className="input-container">
