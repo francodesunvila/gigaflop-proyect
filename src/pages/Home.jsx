@@ -19,7 +19,7 @@ const backCotizacion=()=>{
     navigate('/cotizaciones')
 }
 const errorHome=()=>{
-    navigate('/errorhome')
+    navigate('/error')
 }
 
   return (

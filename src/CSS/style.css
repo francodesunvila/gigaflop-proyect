@@ -1,9 +1,4 @@
-*{
-  margin:0;
-  padding:0;
-  box-sizing: border-box;
-  
-}
+
 body {
     background-color: #4285f4;
     display: flex;
@@ -1500,7 +1495,7 @@ body {
     align-items: center;
     align-content: center;
     justify-content: center;
-    width: 1500px;
+    width: 100%;
     height: 100vh;
   }
   .errorfoto{

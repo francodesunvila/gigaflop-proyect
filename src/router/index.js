@@ -3,7 +3,7 @@ import Login from "../pages/Login";
 import Menu from "../pages/Menu";
 import Cotizaciones from "../pages/Cotizaciones";
 import Error404 from "../pages/Error404";
-import Error4042 from "../pages/Error4042";
+
 import Home from "../pages/Home";
 import Errorhome from "../pages/Errorhome";
 
@@ -14,34 +14,36 @@ export const router = createBrowserRouter([
     
             {
             path: '/',
-            element: <Login/>,  
+            element: <Login/>,
+            errorElement: <Error404/>  
             },
             
             {
             path: '/menu',
             element: <Menu/>,  
+            errorElement: <Error404/> 
             },
 
             {
             path: '/cotizaciones',
             element: <Cotizaciones/>,
+            errorElement: <Error404/> 
             },
 
             {
             path: '/error',
             element: <Error404/>,
             },
-            {
-            path: '/error2',
-            element: <Error4042/>,
-            },
+        
             {
             path: '/home',
             element: <Home/>,
+            errorElement: <Error404/> 
             },
             {
             path: '/errorhome',
             element: <Errorhome/>,
+            errorElement: <Error404/> 
             },
 ]);
 

@@ -6,7 +6,7 @@ import { useNavigate } from 'react-router-dom'
 const Error404 = () => {
     const navigate = useNavigate()
     const handleError=()=>{
-        navigate('/menu');
+        navigate(-1);
     }
   return (
    

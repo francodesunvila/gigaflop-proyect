@@ -13,9 +13,7 @@ const Menu = () => {
     const gestionCliente=()=>{
         navigate('/error')
     }
-    const seguimientoCoti=()=>{
-      navigate('/error')
-  }
+ 
     const handleLogout =() =>{
         setUser(false)
         navigate('/')
@@ -31,7 +29,7 @@ const Menu = () => {
       <div className="menubox">
         
         <div className="menu-container"> 
-          <button className="menu-button"onClick={seguimientoCoti}>SEGUIMIENTO DE COTIZACIONES</button>
+          <button className="menu-button"onClick={gestionCliente}>SEGUIMIENTO DE COTIZACIONES</button>
           <button className="menu-button"onClick={gestionCliente}>GESTIÓN DE CLIENTES</button>
           <button className="menu-button" onClick={handleCotizacion}>GESTIÓN DE COTIZACIONES</button>
           

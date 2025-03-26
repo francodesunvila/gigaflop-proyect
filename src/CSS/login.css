@@ -1,0 +1,77 @@
+.background-container {
+    background-color: #4285f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 305px; /* Ocupa todo el ancho del body */
+    height: 650px;
+  }
+  .loginbox {
+    background-color: white;
+    width: 280px;
+    border-radius: 30px;
+    height: 450px;
+    box-shadow: 3px 3px #d9d9d9;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  }
+  .title-container {
+    display: flex;
+    justify-content: center;
+    width: 250px;
+    height: 80px;
+  }
+  .title {
+    color: #4285f4;
+    font-size: 50px;
+    text-shadow: 3px 5px #d9d9d9;
+    font-weight: bold;
+    width: 300px;
+    text-align: center;
+    margin-top: 10px;
+  }
+  .input-container {
+    display: flex;
+    flex-direction: column;
+    width: 280px;
+    margin: 20px;
+    align-items: center;
+    height: 300px;
+    padding: 20px;
+  }
+  .input {
+    width: 250px;
+    height: 45px;
+    margin: 15px;
+    border-radius: 5px;
+    background-color: #d9d9d9;
+    border: 1px solid #d9d9d9;
+    padding: 10px;
+  }
+  input:hover {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  }
+  .login-button {
+    height: 45px;
+    margin: 10px;
+    border-radius: 5px;
+    background-color: #239f65;
+    border: 1px solid #d9d9d9;
+    padding: 10px;
+    color: white;
+    width: 200px;
+    padding: 5px;
+    box-shadow: 3px 3px #d9d9d9;
+    cursor: pointer; /* Añade cursor pointer para indicar que es un botón */
+    font-weight: bold;
+  }
+  .login-button:hover {
+    background-color: #1e8449; /* Cambia el color al hacer hover */
+    box-shadow: 4px 4px #c0c0c0; /* Cambia el box shadow al hacer hover */
+    transform: translateY(-2px); /* Opcional: Levanta el botón ligeramente */
+    transition: all 0.3s ease; /* Opcional: Transición suave para el efecto */
+  }

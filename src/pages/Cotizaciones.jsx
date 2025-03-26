@@ -11,7 +11,7 @@ const Cotizaciones = () => {
   navigate('/menu');
 };
   const cotizacionError= () =>{
-    navigate('/error2');
+    navigate('/error');
 };
 
   const nuevaCotizacion=()=>{
