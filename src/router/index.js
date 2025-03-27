@@ -3,9 +3,8 @@ import Login from "../pages/Login";
 import Menu from "../pages/Menu";
 import Cotizaciones from "../pages/Cotizaciones";
 import Error404 from "../pages/Error404";
-
 import Home from "../pages/Home";
-import Errorhome from "../pages/Errorhome";
+
 
 
 
@@ -40,10 +39,6 @@ export const router = createBrowserRouter([
             element: <Home/>,
             errorElement: <Error404/> 
             },
-            {
-            path: '/errorhome',
-            element: <Errorhome/>,
-            errorElement: <Error404/> 
-            },
+            
 ]);
 

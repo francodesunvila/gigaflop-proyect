@@ -10,6 +10,7 @@ import hp from '../img/hp.jpg'
 import intel2 from '../img/intel2.jpg'
 import { useNavigate } from 'react-router-dom'
 import menu from '../img/menu.png'
+import '../CSS/home.css'
 
 const Home = () => {
 

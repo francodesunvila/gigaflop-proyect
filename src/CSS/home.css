@@ -1,0 +1,851 @@
+.headerhome{
+    width: 39vh;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    border-radius: 15px; 
+    
+  }
+  .headercontainer{
+    display: flex;
+    padding: 7px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    height: 60px;
+    width: 39vh;
+    position: absolute;
+    border-radius: 5px 5px;
+  }
+  .titlehome{
+    color: white;
+    text-shadow: 2px 2px grey;
+    display: none;
+  }
+  .containermenuimage{
+    width: 40px;
+    height: 40px;
+    background: white;
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .menuimage{
+    width: 45px;
+    height: 45px;
+  }
+  .menuimage:hover{
+    border-radius: 30px;
+    border: solid black;
+    cursor: pointer;
+  }
+  .inputhome{
+    display: none;
+  }
+  .proveedor{
+    color: white;
+    margin-top: 10px;
+    font-size: 18px;
+    width: 160px;
+  }
+  .proveedor:hover{
+    color: #4285f4;
+    transform: translateY(-2px); /* Opcional: Levanta el botón ligeramente */
+    transition: all 0.3s ease;
+    cursor: pointer;
+  }
+  .carritocontainer{
+    height: 40px;
+    display: flex;
+    align-items: center;
+  }
+  .carrito{
+    color: white;
+    margin-right: 10px;
+    margin-top: 5px;
+  }
+  .carrito:hover{
+    color: #4285f4;
+    transform: translateY(-2px); /* Opcional: Levanta el botón ligeramente */
+    transition: all 0.3s ease;
+    cursor: pointer;
+  }
+  .optioncontainer{
+    display: none;
+  }
+  .card{
+    width: 39vh;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    align-items: center;
+    height: 500px;
+    margin-top: 61px;
+    background: #d9d9d9;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    
+  }
+  .inputcontainermobile{
+    border: 3px solid rgb(0, 0, 0);
+    height: 50px;
+    width: 39vh;
+    border-radius: 5px 5px 0px 0px;
+    display: flex;
+    justify-content: center;
+    background: black;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    
+  }
+  .inputhomemobile{
+    border-radius: 10px;
+    width: 35vh;
+    
+  }
+  .inputhomemobile:hover {
+    border-color: #4285f4;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  }
+  .cardtitlecont{
+    width: 35vh;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    
+  }
+  .titlecard{
+    color: #4285f4;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+  }
+  .cardcontainer{
+    border: 3px solid rgb(196, 196, 199);
+    height: 300px;
+    width: 30vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5px;
+    background: white;
+    padding: 10px;   
+     
+  }
+  .cardcontainer:hover{
+    border: 2px solid #4285f4;
+} 
+  .cardimage{
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 190px;
+    height: 150px;
+  }
+  .stock{
+    font-size: 10px;
+    margin-top: 10px;
+  }
+  .cardstock{
+    color: grey;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    align-content: flex-end;
+    justify-content: flex-end;
+    height: 60px;
+  }
+  .product{
+    font-size: 12px;
+    text-align: center;
+  }
+  .buttoncard{
+    background: #4285f4;
+    color: white;
+    width: 100px;
+    border-radius: 3px;
+    border: #4285f4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    height: 30px;
+    
+  }
+  .buttoncard:hover{
+    background: rgb(55, 55, 168);
+    cursor: pointer;
+    transform: translateY(1px); /* Opcional: Levanta el botón ligeramente */
+    transition: all 0.1s ease;
+  }
+  .containerbuttoncard{
+    height: 70px;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+  }
+  .cardsforproduct{
+    display: flex;
+    border: 3px solid rgb(199, 196, 196);
+    width: 35vh;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: center;
+    height: 350px;
+    align-items: center;
+    border-radius: 10px;
+    
+  }
+  .hub{
+    width: 150px;
+  }
+  .discoe{
+    width: 180px;
+  }
+  .notebook{
+    width: 200px;
+    height: 130px;
+  }
+  .impresora{
+    width: 150px;
+  }
+.carddescription{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 560px;
+
+}
+.footerhome{
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vh;
+}
+.footercontainer{
+    width: 35%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.footerback{
+    background-color: #4285f4;
+    color: white;
+    width: 70px;
+    font-size: 12px;
+    border-radius: 15px;
+    border: 2px solid #4285f4;
+}
+.footerback:hover{
+    background: #3e45a5;
+    transform: translateY(1px); /* Opcional: Levanta el botón ligeramente */
+    transition: all 0.1s ease;
+}
+.footerfinalizar{
+    background-color: #239f65;
+    color: white;
+    width: 70px;
+    font-size: 12px;
+    border-radius: 15px;
+    border: 2px solid #239f65;
+}
+.footerfinalizar:hover{
+    background: green;
+    transform: translateY(1px); /* Opcional: Levanta el botón ligeramente */
+    transition: all 0.1s ease;
+}
+.footerimagecontainer{
+    width: 35%;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.imagefooter{
+    width: 50px;
+    height: 40px;
+}
+.imagefooter:hover{
+    width: 82px;
+    cursor: pointer;
+}
+
+@media (min-width: 768px){
+   
+    .headerhome{
+        
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        background-color: white;
+        border-radius: 15px;
+        margin-top: 30px;
+      }
+      .headercontainer{ /*CONTENEDOR DE TODO EL HEADER EN NEGRO*/
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-content: space-around;
+        align-items: center;
+        background-color: black;
+        height: 70px;
+        width: 100%;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+      }
+      .inputcontainermobile{
+        display: none;
+      }
+      .titlehome{
+        color: white;
+        text-shadow: 2px 2px grey;
+        display: block;
+      }
+      .inputcontainer{
+        width: 40%;
+      }
+      .inputhome{
+        border-radius: 10px;
+        width: 100%;
+        height: 40px;
+        display: block;
+      }
+      .inputhome:hover {
+        border-color: #4285f4;
+        box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+      }
+      .proveedor{
+        color: white;
+      }
+      .proveedor:hover{
+        color: #4285f4;
+        transform: translateY(-2px); /* Opcional: Levanta el botón ligeramente */
+        transition: all 0.3s ease;
+        cursor: pointer;
+      }
+      .menuimage{
+        display: none;
+      }
+      .containermenuimage{
+        display: none;
+      }
+      .carrito{
+        color: white;
+      }
+      .carrito:hover{
+        color: #4285f4;
+        transform: translateY(-2px); /* Opcional: Levanta el botón ligeramente */
+        transition: all 0.3s ease;
+        cursor: pointer;
+      }
+      .optioncontainer{
+        display: flex;
+        background: #d9d9d9;
+        height: 45px;
+        width: 100%;
+        margin-top: 70px;
+        justify-content: space-around;
+        align-items: center;
+        padding: 10px;
+        border: 2px solid rgb(192, 185, 185);
+      }
+      .optionhome{
+        margin-top: 5px;
+        font-size: 13px;
+        font-weight: bold;
+        text-shadow: 1px 3px rgb(196, 188, 188);
+      }
+      .optionhome:hover{
+        text-shadow: 1px 1px grey;
+        cursor: pointer;
+        color: #4285f4;
+      }
+      .card{
+        border: 2px solid rgb(197, 187, 187);
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-content: space-between;
+        align-items: center;
+        height: 50%;
+        margin-top: 20px;
+        background: #d9d9d9;
+        overflow-y: hidden;
+      }
+      .cardtitlecont{ /*CONTENEDOR PALABRA "PRODUCTOS" */
+        width: 30%;
+        display: flex;
+        justify-content: center;
+        margin-top: 5px;
+      }
+      .cardsforproduct{  /*CONTENEDOR PRODUCTOS DE LAS CARDS*/
+        display: flex;
+        border: 3px solid rgb(199, 196, 196);
+        flex-direction: row;
+        width: 100%;
+        justify-content: space-around;
+        height: 350px;
+        align-items: center;
+        border-radius: 10px;
+      }
+      .cardcontainer{  /*CARDS*/
+        border: 3px solid rgb(196, 196, 199);
+        height: 90%;
+        width: 30%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-content: space-between;
+        justify-content: space-around;
+        border-radius: 5px;
+        background: white;
+        padding: 10px;
+      }
+      .cardcontainer:hover{
+        border: 2px solid #4285f4;
+    } 
+      .cardimage{ /*contenedor imagen*/   
+        margin-bottom: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 150px; 
+      }
+      .stock{
+        font-size: 10px;
+        margin-top: 10px;
+      }
+      .cardstock{
+        color: grey;
+        margin-top: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 20px;
+      }
+      .product{
+        font-size: 8px;
+        text-align: center;
+      }
+      .buttoncard{
+        background: #4285f4;
+        color: white;
+        width: 100%;
+        border-radius: 3px;
+        border: #4285f4;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        align-content: center;
+        height: 30px;
+        font-size: 13px;
+      }
+      .buttoncard:hover{
+        background: rgb(55, 55, 168);
+        cursor: pointer;
+        transform: translateY(1px); /* Opcional: Levanta el botón ligeramente */
+        transition: all 0.1s ease;
+      }
+      .containerbuttoncard{
+        height: 50px;
+        display: flex;
+        justify-content: flex-end;
+        flex-direction: column;
+      }
+      .titlecard{
+        color: #4285f4;
+        font-size: 20px;
+        font-weight: bold;
+      }
+      .hub{
+        width: 50%;
+      }
+      .discoe{
+        width: 50%;
+      }
+      .notebook{
+        width: 80%;
+        height: 100%;
+      }
+      .impresora{
+        width: 50%;
+      }
+    .carddescription{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        height: 35%;
+    }
+    .footerhome{
+        height: 30%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    .footercontainer{
+        width: 90%;
+        height: 50px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .footerback{
+        background-color: #4285f4;
+        color: white;
+        width: 70px;
+        font-size: 12px;
+        border-radius: 15px;
+        border: 2px solid #4285f4;
+        height: 90%;
+    }
+    .footerback:hover{
+        background: #3e45a5;
+        transform: translateY(1px); /* Opcional: Levanta el botón ligeramente */
+        transition: all 0.1s ease;
+    }
+    .footerfinalizar{
+        background-color: #239f65;
+        color: white;
+        width: 70px;
+        font-size: 12px;
+        border-radius: 15px;
+        border: 2px solid #239f65;
+        height: 90%;
+    }
+    .footerfinalizar:hover{
+        background: green;
+        transform: translateY(1px); /* Opcional: Levanta el botón ligeramente */
+        transition: all 0.1s ease;
+    }
+    .footerimagecontainer{
+        width: 90%;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .imagefooter{
+        width: 70px;
+        height: 60px;   
+    }
+    .imagefooter:hover{
+        width: 80px;
+        cursor: pointer;
+    }
+}  
+@media (min-width: 1024px){
+    .headerhome{
+        width: 100%;
+        height: 98vh;
+        display: flex;
+        flex-direction: column;
+        background-color: white;  
+        border-radius: 15px;
+        margin-top: -5px;
+        
+      }
+      .headercontainer{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-content: space-around;
+        align-items: center;
+        background-color: black;
+        height: 70px;
+        width: 100%;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+      }
+      .titlehome{
+        color: white;
+        text-shadow: 2px 2px grey;
+      }
+      .inputhome{
+        border-radius: 10px;
+        width: 90%;
+        height: 40px;
+        display: block;
+      }
+      .inputhome:hover {
+        border-color: #4285f4;
+        box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+      }
+      .proveedorcontainer{
+        width: 20%;
+      }
+      .proveedor{
+        color: white;
+        font-size: 25px;
+        text-shadow: 2px 2px grey;
+        width: 100%;
+      }
+      .proveedor:hover{
+        color: #4285f4;
+        transform: translateY(-2px); /* Opcional: Levanta el botón ligeramente */
+        transition: all 0.3s ease;
+        cursor: pointer;
+      }
+      .menuimage{
+        background: rgb(255, 255, 255);
+        width: 50px;
+        height: 50px;
+        border-radius: 30px;
+        border: 1px solid #4285f4;
+        display: none; 
+      }
+      .containermenuimage{
+        display: none;
+      }
+      .carrito{
+        color: white;
+        text-shadow: 2px 2px grey;
+      }
+      .carrito:hover{
+        
+        color: #4285f4;
+        transform: translateY(-2px); /* Opcional: Levanta el botón ligeramente */
+        transition: all 0.3s ease;
+        cursor: pointer;
+      }
+      .optioncontainer{
+        display: flex;
+        background: #d9d9d9;
+        height: 45px;
+        width: 100%;
+        margin-top: 70px;
+        justify-content: space-around;
+        align-items: center;
+        border: 2px solid rgb(192, 185, 185);
+      }
+      .optionhome{
+        margin-top: 5px;
+        font-size: 15px;
+        font-weight: bold;
+        text-shadow: 1px 3px rgb(196, 188, 188);
+      }
+    
+      .optionhome:hover{
+        text-shadow: 1px 1px grey;
+        cursor: pointer;
+        color: #4285f4;
+      }
+      .card{
+        border: 2px solid rgb(197, 187, 187);
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-content: space-between;
+        align-items: center;
+        height: 400px;
+        margin-top: 20px;
+        background: #d9d9d9;
+        
+      }
+      
+      .cardtitlecont{
+        width: 90%;
+        display: flex;
+        justify-content: center;
+        margin-top: 5px;
+      }
+      .titlecard{
+        color: #4285f4;
+        font-size: 20px;
+        font-weight: bold;
+        
+      }
+      .cardcontainer{
+        border: 3px solid rgb(196, 196, 199);
+        height: 300px;
+        width: 235px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-content: space-between;
+        justify-content: space-around;
+        border-radius: 5px;
+        background: white;
+        padding: 10px;
+        
+      }
+      
+      .cardcontainer:hover{
+        border: 2px solid #4285f4;
+    } 
+    .cardsforproduct{
+        display: flex;
+        border: 3px solid rgb(199, 196, 196);
+        width: 100%;
+        justify-content: space-around;
+        height: 350px;
+        align-items: center;
+        border-radius: 10px;
+        
+      }
+      .cardimage{
+        
+        margin-bottom: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 190px;
+        height: 150px;
+    
+      }
+     
+      .stock{
+        font-size: 10px;
+        margin-top: 10px;
+      }
+      
+      .cardstock{
+        color: grey;
+       
+        margin-top: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        align-content: flex-end;
+        justify-content: flex-end;
+        height: 60px;
+      
+      }
+      .product{
+        font-size: 12px;
+        text-align: center;
+      
+    
+      }
+    
+      .buttoncard{
+        background: #4285f4;
+        color: white;
+        width: 100px;
+        border-radius: 3px;
+        border: #4285f4;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        align-content: center;
+        height: 30px;
+      }
+      .buttoncard:hover{
+        background: rgb(55, 55, 168);
+        cursor: pointer;
+        transform: translateY(1px); /* Opcional: Levanta el botón ligeramente */
+        transition: all 0.1s ease;
+        
+      }
+      .containerbuttoncard{
+        
+        height: 70px;
+        display: flex;
+        justify-content: flex-end;
+        flex-direction: column;
+        
+        
+      }
+    
+      
+    
+      .hub{
+        width: 80%;
+      }
+      .discoe{
+        width: 80%;
+      }
+      .notebook{
+        width: 80%;
+        height: 100%;
+      }
+      .impresora{
+        width: 80%;
+    
+      }
+    .carddescription{
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        height: 560px;
+    }
+    
+    .footerhome{
+        
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+        
+    }
+    .footercontainer{
+        
+        width: 1200px;
+        height: 70px;
+        display: flex;
+        justify-content: space-between;
+        padding: 5px;
+        margin: 10px;
+    }
+    
+    .footerback{
+        background-color: #4285f4;
+        color: white;
+        width: 120px;
+        font-size: 17px;
+        border-radius: 15px;
+        border: 2px solid #4285f4;
+    }
+    .footerback:hover{
+        background: #3e45a5;
+        transform: translateY(1px); /* Opcional: Levanta el botón ligeramente */
+        transition: all 0.1s ease;
+    }
+    
+    .footerfinalizar{
+        background-color: #239f65;
+        color: white;
+        width: 120px;
+        font-size: 17px;
+        border-radius: 15px;
+        border: 2px solid #239f65;
+        
+    }
+    .footerfinalizar:hover{
+        background: green;
+        transform: translateY(1px); /* Opcional: Levanta el botón ligeramente */
+        transition: all 0.1s ease;
+    }
+    
+    .footerimagecontainer{
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 15px;
+    }
+    .imagefooter{
+        width: 80px;
+        height: 70px;
+    }
+    .imagefooter:hover{
+        width: 82px;
+        cursor: pointer;
+    }
+    }
+
+
+
+    

@@ -1,0 +1,256 @@
+.background-container-cotiza{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+ }
+  .cotizabox{
+    background-color: white;
+    width: 280px;
+    margin: 25px;
+    border-radius: 30px;
+    height: 450px;
+    box-shadow: 3px 3px #d9d9d9;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .title-coti{
+    color: white;
+    font-size: 50px;
+    text-shadow: 3px 5px #645e5e9c;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  .cotizatitlebox{
+    margin-bottom: 20px;
+    width: 250px;  
+    display: flex;
+    justify-content: center;
+    border-bottom: 5px solid rgb(190, 186, 186);
+  }
+  .cotizatitle{
+    font-weight: bold; 
+    color: grey;
+  }
+  .box-volver-cotiza{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;   
+    margin-top: 60px;
+    width: 250px;
+  }
+  .cotiza-container-button{
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .cotiza-button{
+    height: 60px;
+    margin: 10px;
+    border-radius: 5px;
+    background-color: #4285f4;
+    border: 3px solid #4285f4;
+    padding: 10px;
+    color: white;
+    width: 250px;
+    box-shadow: 3px 3px #d9d9d9;
+    cursor: pointer; /* Añade cursor pointer para indicar que es un botón */
+    font-weight: bold
+  }
+  .cotiza-button:hover {
+    background-color: #3e45a5; /* Cambia el color al hacer hover */
+    box-shadow: 4px 4px #c0c0c0; /* Cambia el box shadow al hacer hover */
+    transform: translateY(-2px); /* Opcional: Levanta el botón ligeramente */
+    transition: all 0.3s ease; /* Opcional: Transición suave para el efecto */
+  }
+  .volver-cotiza{
+    color: #239f65;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-left: 10px;
+    text-decoration: none;
+  }
+  .volver-cotiza:hover{ 
+    color: rgb(4, 88, 4);
+    transform: translateY(-2px); /* Opcional: Levanta el botón ligeramente */
+    transition: all 0.3s ease; 
+  }
+
+  @media (min-width: 768px){
+    .background-container-cotiza{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+  
+    }
+      .cotizabox{
+        background-color: white;
+        width: 100%;
+        margin: 25px;
+        border-radius: 30px;
+        height: 450px;
+        box-shadow: 3px 3px #d9d9d9;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+       
+      }
+     .title-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-right: 90px;
+        width: 80%;
+    }
+      .title-coti{
+        color: white;
+        font-size: 70px;
+        text-shadow: 3px 5px #645e5e9c;
+        font-weight: bold;
+        text-align: center;
+        width: 100%;
+        height: 80px;
+        margin-top: 50px;
+      }
+     .cotizatitlebox{
+        margin-bottom: 120px;
+        width: 100%;  
+        display: flex;
+        justify-content: center;
+        border-bottom: 5px solid rgb(190, 186, 186);
+      }
+      .cotizatitle{
+        font-weight: bold; 
+        color: grey;
+      }
+      .box-volver-cotiza{
+        display: flex;
+        justify-content: space-between;
+        align-content: center;   
+        margin-top: 60px;
+        width: 100%;
+      }
+      .cotiza-container-button{
+        width: 85%;
+      }
+      .cotiza-button{
+        height: 60px;
+        margin: 10px;
+        border-radius: 5px;
+        background-color: #4285f4;
+        border: 3px solid #4285f4;
+        padding: 10px;
+        color: white;
+        width: 400px;
+        padding: 5px;
+        box-shadow: 3px 3px #d9d9d9;
+        cursor: pointer; /* Añade cursor pointer para indicar que es un botón */
+        font-weight: bold;
+      }
+      .cotiza-button:hover {
+        background-color: #3e45a5; /* Cambia el color al hacer hover */
+        box-shadow: 4px 4px #c0c0c0; /* Cambia el box shadow al hacer hover */
+        transform: translateY(-2px); /* Opcional: Levanta el botón ligeramente */
+        transition: all 0.3s ease; /* Opcional: Transición suave para el efecto */
+      }
+      .volver-cotiza{
+        color: #239f65;
+        font-weight: bold;
+        margin-left: 10px;
+        text-decoration: none;
+      }
+      .volver-cotiza:hover{
+        color: rgb(4, 88, 4);
+        transform: translateY(-2px); /* Opcional: Levanta el botón ligeramente */
+        transition: all 0.3s ease; 
+      }
+      .box-volver-cotiza{
+        width: 80%;
+      }
+
+    
+  }
+
+  @media (min-width: 1024px){
+    .background-container-cotiza{
+   
+        background-color: #4285f4;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+        width: 100vh;
+        height: 99vh;
+       
+    }
+      .cotizabox{
+        background-color: white;
+        width: 100%;
+        margin: 25px;
+        border-radius: 30px;
+        height: 500px;
+        box-shadow: 3px 3px #d9d9d9;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      .cotizatitlebox{
+        width: 100%;  
+        display: flex;
+        justify-content: center;
+        border-bottom: 5px solid rgb(190, 186, 186);
+      }
+      .cotizatitle{
+        font-weight: bold; 
+        color: grey;
+      }
+      .box-volver-cotiza{
+        display: flex;
+        justify-content: space-between;
+        align-content: center;   
+        margin-bottom: 30px;
+        width: 90%;
+      }
+      .cotiza-container-button{
+        width: 55%; 
+      }
+      .cotiza-button{
+        height: 70px;
+        margin: 10px;
+        border-radius: 5px;
+        background-color: #4285f4;
+        border: 3px solid #4285f4;
+        padding: 10px;
+        color: white;
+        width: 90%;
+        padding: 5px;
+        box-shadow: 3px 3px #d9d9d9;
+        cursor: pointer; /* Añade cursor pointer para indicar que es un botón */
+        font-weight: bold;
+      }
+      .cotiza-button:hover {
+        background-color: #3e45a5; /* Cambia el color al hacer hover */
+        box-shadow: 4px 4px #c0c0c0; /* Cambia el box shadow al hacer hover */
+        transform: translateY(-2px); /* Opcional: Levanta el botón ligeramente */
+        transition: all 0.3s ease; /* Opcional: Transición suave para el efecto */
+      }
+      .volver-cotiza{
+        color: #239f65;
+        font-weight: bold;
+        margin-left: 10px;
+        text-decoration: none;
+      }
+      .volver-cotiza:hover{
+        color: rgb(4, 88, 4);
+        transform: translateY(-2px); /* Opcional: Levanta el botón ligeramente */
+        transition: all 0.3s ease; 
+      }
+  }

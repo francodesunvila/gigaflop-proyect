@@ -75,3 +75,164 @@
     transform: translateY(-2px); /* Opcional: Levanta el botón ligeramente */
     transition: all 0.3s ease; /* Opcional: Transición suave para el efecto */
   }
+
+  @media (min-width: 768px){
+
+    .background-container {
+        background-color: #4285f4;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+      }
+    .loginbox {
+        background-color: white;
+        width: 550px;
+        margin: 25px;
+        border-radius: 30px;
+        height: 450px;
+        box-shadow: 3px 3px #d9d9d9;
+        flex-direction: column;
+      }
+      .title-container-login {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        width: 500px;
+        
+      }
+      .title {
+        color: #4285f4;
+        font-size: 85px;
+        text-shadow: 3px 5px #d9d9d9;
+        font-weight: bold;
+        width: 500px;
+      }
+      .input-container {
+        display: flex;
+        flex-direction: column;
+        width: 700px;
+        margin: 10px;
+        align-items: center;
+        height: 300px;
+        padding: 20px;
+      }
+      .input {
+        width: 400px;
+        height: 45px;
+        margin: 10px;
+        border-radius: 5px;
+        background-color: #d9d9d9;
+        border: 1px solid #d9d9d9;
+        padding: 10px;
+      }
+      input:hover {
+        border-color: #007bff;
+        box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+      }
+      .login-button {
+        height: 45px;
+        margin: 10px;
+        border-radius: 5px;
+        background-color: #239f65;
+        border: 1px solid #d9d9d9;
+        padding: 10px;
+        color: white;
+        width: 200px;
+        padding: 5px;
+        margin-bottom: 10px;
+        box-shadow: 3px 3px #d9d9d9;
+        cursor: pointer; /* Añade cursor pointer para indicar que es un botón */
+        font-weight: bold
+      }
+      .login-button:hover {
+        background-color: #1e8449; /* Cambia el color al hacer hover */
+        box-shadow: 4px 4px #c0c0c0; /* Cambia el box shadow al hacer hover */
+        transform: translateY(-2px); /* Opcional: Levanta el botón ligeramente */
+        transition: all 0.3s ease; /* Opcional: Transición suave para el efecto */
+      }
+      .loginregistro{
+        font-size: 12px;
+      }
+    
+  } 
+  @media (min-width: 1024px){
+    .background-container {
+        background-color: #4285f4;
+        display: flex;
+        justify-content: center;
+      }
+      .loginbox {
+        background-color: white;
+        width: 750px;
+        margin: 25px;
+        border-radius: 30px;
+        height: 450px;
+        box-shadow: 3px 3px #d9d9d9;
+        flex-direction: column;
+      }
+      .title-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        width: 500px;
+        margin: 10px;
+        margin-top: 50px;
+        margin-bottom: 20px;
+      }
+      .title {
+        color: #4285f4;
+        font-size: 85px;
+        text-shadow: 3px 5px #d9d9d9;
+        font-weight: bold;
+        width: 500px;
+      } 
+      .input-container {
+        display: flex;
+        flex-direction: column;
+        width: 700px;
+        margin: 10px;
+        align-items: center;
+        height: 300px;
+        padding: 20px;
+      }
+      .input {
+        width: 400px;
+        height: 45px;
+        margin: 10px;
+        border-radius: 5px;
+        background-color: #d9d9d9;
+        border: 1px solid #d9d9d9;
+        padding: 10px;
+      }
+      input:hover {
+        border-color: #007bff;
+        box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+      }
+      .login-button {
+        height: 45px;
+        margin: 10px;
+        border-radius: 5px;
+        background-color: #239f65;
+        border: 1px solid #d9d9d9;
+        padding: 10px;
+        color: white;
+        width: 200px;
+        padding: 5px;
+        margin-bottom: 10px;
+        box-shadow: 3px 3px #d9d9d9;
+        cursor: pointer; /* Añade cursor pointer para indicar que es un botón */
+        font-weight: bold
+      }
+      .login-button:hover {
+        background-color: #1e8449; /* Cambia el color al hacer hover */
+        box-shadow: 4px 4px #c0c0c0; /* Cambia el box shadow al hacer hover */
+        transform: translateY(-2px); /* Opcional: Levanta el botón ligeramente */
+        transition: all 0.3s ease; /* Opcional: Transición suave para el efecto */
+      }
+      .loginregistro{
+        font-size: 12px;
+      }
+    
+  }

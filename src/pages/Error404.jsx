@@ -1,7 +1,7 @@
 import React from 'react'
 import error from '../img/error.jpg'
 import { useNavigate } from 'react-router-dom'
-
+import '../CSS/error.css'
 
 const Error404 = () => {
     const navigate = useNavigate()
